@@ -1,0 +1,12 @@
+{
+  "name": "vigil-health-copilot",
+  "version": "1.0.0",
+  "description": "Vigil - AI-Powered Personal Health Copilot",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "backend": "cd backend && .\\venv\\Scripts\\uvicorn.exe main:app --reload --port 8000",
+    "start": "powershell -ExecutionPolicy Bypass -File .\\start-dev.ps1"
+  }
+}
